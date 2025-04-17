@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Please write your code here.
+    int a(0), b(0);
+
+    cin >> a >> b;
+
+    if (a < b)
+        cout << 1;
+    else
+        cout << 0;
+    
+    cout << " ";
+
+    if (a == b)
+        cout << 1;
+    else
+        cout << 0;
+        
+    return 0;
+}
