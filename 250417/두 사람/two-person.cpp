@@ -8,6 +8,6 @@ int main() {
 
     cin >> aAge >> aSex >> bAge >> bSex;
 
-    cout << ((aAge >= 19 || bAge >= 19) && (aSex == 'M' || bSex == 'M'));
+    cout << ((aAge >= 19 && aSex == 'M') || (bAge >= 19 && bSex == 'M'));
     return 0;
 }
